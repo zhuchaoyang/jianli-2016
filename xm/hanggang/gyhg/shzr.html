@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,user-scalable=no">
+	<title>航港发展有限公司</title>
+	<link type="text/css" rel="stylesheet" href="../css/style.css"/>
+	<link type="text/css" rel="stylesheet" href="../css/gyhg/shzr.css"/>
+	<link type="text/css" rel="stylesheet" href="../css/hover3d.css"/>				<!--hover3d  css-->	
+
+	<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>			<!--jQuery插件-->
+	<script type="text/javascript" src="../js/jquery.SuperSlide.2.1.1.js"></script>	<!--SuperSlide插件-->			
+	<script type="text/javascript" src="../js/jquery.hover3d.js" ></script>			<!--hover3d插件-->
+	<script type="text/javascript" src="../js/gyhg/gyhg.js"></script>						<!--内容js-->
+	<script type="text/javascript" src="../js/script.js"></script>						<!--框架js-->
+
+	<style>
+	
+	</style>
+
+	<script>
+		$(document).ready(function(){
+			$(".project").hover3d({
+				selector: ".project__card",
+				shine: true,
+				sensitivity: 20,
+			});
+		});
+	</script>
+
+</head>
+
+<body>
+
+<!--这是头部-->
+	<div class="header xs_hidden">
+		<div class="top_yuyan">
+			<div class="top_yuyan_container container">
+				<div class="yuyan">
+					<span><a href="" class="yuyan_active">中文</a></span>
+					<span>|</span>
+					<span>ENG</span>
+				</div>
+			</div>
+		</div>
+		<div class="top_bar">
+			<div class="top_container container">
+				<div class="top_logo"><a href="../index.html"><img src="../img/tubiao/logo_1.gif" alt=""></a></div>
+				<div class="top_line">
+					<ul id="top_nav" class="top_nav clearfix">
+						<li class="nLi " >
+							<h3><a href="../index.html" >首页</a></h3>
+						</li>
+						<li class="nLi" id="nLi_active">
+							<h3><a href="../gyhg/gsjj.html" >关于航港</a></h3>
+							<ul class="sub" style="display: none;left: 0px;">
+								<li><a href="../gyhg/gsjj.html">公司介绍</a></li>
+								<li><a href="../gyhg/gltd.html">管理团队</a></li>
+								<li><a href="../gyhg/gsdsj.html">公司大事记</a></li>
+								<li><a href="../gyhg/shzr.html">社会责任</a></li>
+								<li><a href="../gyhg/lxwm.html">联系我们</a></li>
+							</ul>
+						</li>
+						<li class="nLi on">
+						<!-- 假设当前频道为“预告片”，手动或后台程序添加titOnClassName类名（默认是'on'），相当于设置参数defaultIndex:1。若同时设置参数returnDefault:true，则鼠标移走后0.3秒返回当前频道 -->
+							<h3><a href="../ACLP/aclpjs.html" >我们的项目</a></h3>
+							<ul class="sub" style="left: -145px;">
+								<li><a href="../ACLP/aclpjs.html">ACLP介绍</a></li>
+								<li><a href="../ACLP/gnq.html">功能区详述</a></li>
+								<li><a href="../ACLP/hykh.html">行业客户</a></li>
+							</ul>
+						</li>
+						<li class="nLi ">
+							<h3><a href="../fwyzc/zlyw.html" >服务与支持</a></h3>
+							<ul class="sub" style="left: -290px;">
+								<li><a href="../fwyzc/zlyw.html">租赁业务</a></li>
+								<li><a href="../fwyzc/wyfw.html">物业服务</a></li>
+								<li><a href="../fwyzc/zxgl.html">咨询管理</a></li>
+								<li><a href="../fwyzc/jjfa.html">IT解决方案</a></li>
+								<li><a href="#">意见反馈</a></li>
+								<li><a href="# ">下载专区</a></li>
+							</ul>
+						</li>
+						<li class="nLi">
+							<h3><a href="../xwysd/gsxw.html" >新闻与视点</a></h3>
+							<ul class="sub" style="left: -435px;">
+								<li><a href="../xwysd/gsxw.html">公司新闻</a></li>
+								<li><a href="#">股东动态</a></li>
+								<li><a href="#">行业视点</a></li>
+								<li><a href="#">媒体报道</a></li>
+							</ul>
+						</li>
+						<li class="nLi"  >
+							<h3><a href="../rczx/hgrfc.html" >人才中心</a></h3>
+							<ul class="sub" style="left: -580px;">
+								<li><a href="../rczx/hgrfc.html">航港人风采</a></li>
+								<li><a href="#">人才理念</a></li>
+								<li><a href="#">社会招聘</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<script id="jsID" type="text/javascript">
+			
+			jQuery("#top_nav").slide({ 
+				type:"menu",// 效果类型，针对菜单/导航而引入的参数（默认slide）
+				titCell:".nLi", //鼠标触发对象
+				targetCell:".sub", //titCell里面包含的要显示/消失的对象
+				effect:"slideDown", //targetCell下拉效果
+				delayTime:300 , //效果时间
+				triggerTime:0, //鼠标延迟触发时间（默认150）
+			});
+		</script>
+	</div>
+
+
+<!--手机nav-->
+	<div class="header_xs">
+		<div class="top_yuyan_xs">
+			<div class="header_logo_xs"><img src="../img/tubiao/logo_1.gif" alt=""></div>
+			<div class="yuyan">
+				<span><a href="" style="color: rgb(199,0,18);">中文</a></span>
+				<span>|</span>
+				<span>ENG</span>
+			</div>
+		</div>
+
+		<div class="top_bar_xs">
+			<ul class="top_nav_xs">
+				<li><a href="../index.html" >首页</a></li>
+				<li><a href="../gyhg/gsjj.html" style="background-color: rgba(0,0,0,0.7);">关于航港</a></li>
+				<li><a href="../ACLP/aclpjs.html">我们的项目</a></li>
+				<li><a href="../fwyzc/zlyw.html">服务与支持</a></li>
+				<li><a href="../xwysd/gsxw.html">新闻与视点</a></li>
+				<li><a href="../rczx/hgrfc.html">人才中心</a></li>
+			</ul>
+		</div>
+	</div>
+
+<!--这是内容-->	
+	<div class="center">
+		<div class="center_show_pic container">
+			<img src="../img/center_show_pic.jpg" alt="">
+		</div>
+
+		<div class="center_container container">
+
+			<div class="center_slide">  
+				<h2>关于航港</h2>
+				<ul class="center_nav">
+					<li class="center_item"><a href="../gyhg/gsjj.html">公司介绍<span class="center_item_pic"><img src="../img/tubiao/quannei_sanjiao.png" alt=""></span></a></li>
+					<li class="center_item"><a href="../gyhg/gltd.html">管理团队<span class="center_item_pic"><img src="../img/tubiao/quannei_sanjiao.png" alt=""></span></a></li>
+					<li class="center_item"><a href="../gyhg/gsdsj.html">公司大事记<span class="center_item_pic"><img src="../img/tubiao/quannei_sanjiao.png" alt=""></span></a></li>
+					<li id="center_item_active"  class="center_item"><a href="../gyhg/shzr.html">社会责任<span id="center_item_pic_active" class="center_item_pic"><img src="../img/tubiao/quannei_sanjiao.png" alt=""></span></a></li>
+					<li class="center_item"><a href="../gyhg/lxwm.html">联系我们<span class="center_item_pic"><img src="../img/tubiao/quannei_sanjiao.png" alt=""></span></a></li>
+				</ul>
+			</div>
+
+			<div class="center_text">
+				<div class="center_title">
+					<div class="center_title_top">
+						<div class="center_t">社会责任</div>
+						<div class="location">
+							<span class="xs_hidden">你的位置：</span>
+							<a href="../index.html">首页</a>
+							<span>&gt;</span>
+							<a href="../gyhg/gsjj.html">关于航港</a>
+							<span>&gt;</span>
+							<a href="../gyhg/shzr.html">社会责任</a>
+						</div>
+					</div>
+					<div class="center_title_line"></div>
+					<div class="center_title_bottom">Social Responsibilities</div>
+				</div>
+				<div class="center_article">
+					
+					<div class="center_article_title_item">为首都机场地区航空货运经营发展保驾护航</div>
+					<p class="center_article_txt_item">首都机场大通关基地紧邻首都国际机场，其位置特殊性要求入驻园区企业必须高度重视安全管理工作，确保机场地区安全运营。航港发展作为北京首都国际机场安全管理体系中的一颗“螺丝钉”，肩负保障园区健康发展、保障机场地区安全运营使命。自大通关基地开园运营以来，航港发展以严谨的工作态度，7*24小时的安全监督运营服务，严防所辖逾2500米的空防红线，为北京首都国际机场空防安全贡献力量。</p>
+
+					<div class="center_article_pic_item project">
+						<div class="project__card">
+							<a href="#" class="project__image"><img src="../img/gyhg/zr_1.jpg"  alt=""></a>
+						</div>
+					</div>
+
+					<div class="center_article_title_item">推动首都机场货运增长，促进区域经济发展</div>
+					<p class="center_article_txt_item">航港发展致力于推动首都机场航空货运的发展，不断开发世界领先的基础物流设施，优化货运通关流程，使首都机场货运保持了高速的增长，从2005年货运吞吐量78万吨发展到2014年的185万吨。</p>
+					<p class="center_article_txt_item" style="padding: 0px;">首都机场大通关基地吸引了近200家知名企业，形成了医药、文化、航空三大产业聚集。其配套的航港国际大厦汇聚了日通中国区总部、DHL华北区总部、中外运空运华北区总部、顺丰华北区呼叫中心等一批国内外知名企业，形成了机场货运区中央商务区。在北京天竺综合保税区内解决了近2万人就业，带动周边近百万商业项目开发。</p>
+
+					<div class="center_article_title_item">创造中国航空物流园区开发新模式</div>
+					<p class="center_article_txt_item">首都机场大通关基地是全国唯一一家服务于航空货运全产业链的航空物流园区，在开发建设运营过程中，整合政府、机场、监管机构、航空公司、客户等多方资源，搭建公共服务平台，优化运营环境，满足了航空货运全产业链物流设施需求，开创了中国航空物流园区投资开发、规划建设、招商运营一体化的新模式。</p>
+
+					<div class="center_article_title_item">服务园区，感恩社会</div>	
+					<div class="center_article_pic_item project">
+						<div class="project__card">
+							<a href="#" class="project__image"><img src="../img/gyhg/zr_2.jpg"  alt=""></a>
+						</div>
+					</div>				
+
+				</div>
+
+			</div>
+
+
+		</div>
+	</div>
+	<div class="clearfix"></div>
+<!--这是脚部-->
+
+	<div class="footer xs_hidden">
+		<div class="footer_container container">
+			<div class="footer_con">
+				<div class="footer_con_item">
+					<h2><a href="../index.html">首页</h2>
+				</div>
+				<div class="footer_con_item">
+					<h2><a href="../gyhg/gsjj.html">关于港航</h2>
+					<ul>
+						<li><span></span><a href="../gyhg/gsjj.html">公司介绍</a></li>
+						<li><span></span><a href="../gyhg/gltd.html">管理团队</a></li>
+						<li><span></span><a href="../gyhg/gsdsj.html">公司大事记</a></li>
+						<li><span></span><a href="../gyhg/shzr.html">社会责任</a></li>
+						<li><span></span><a href="../gyhg/lxwm.html">联系我们</a></li>
+					</ul>
+				</div>
+				<div class="footer_con_item">
+					<h2><a href="../ACLP/aclpjs.html">我们的项目</h2>
+					<ul>
+						<li><span></span><a href="../ACLP/aclpjs.html">ACLP介绍</a></li>
+						<li><span></span><a href="../ACLP/gnq.html">功能区详述</a></li>
+						<li><span></span><a href="../ACLP/hykh.html">行业客户</a></li>
+					</ul>
+				</div>
+				<div class="footer_con_item">
+					<h2><a href="../fwyzc/zlyw.html">服务与支持</h2>
+				<ul>
+					<li><span></span><a href="../fwyzc/zlyw.html">租赁业务</a></li>
+					<li><span></span><a href="../fwyzc/wyfw.html">物业服务</a></li>
+					<li><span></span><a href="../fwyzc/zxgl.html">咨询管理</a></li>
+					<li><span></span><a href="../fwyzc/jjfa.html">IT解决方案</a></li>
+					<li><span></span><a href="#">意见反馈</a></li>
+					<li><span></span><a href="#">下载专区</a></li>
+				</div>
+				<div class="footer_con_item">
+					<h2><a href="../xwysd/gsxw.html">新闻与视点</h2>
+					<ul>
+						<li><span></span><a href="../xwysd/gsxw.html">公司新闻</a></li>
+						<li><span></span><a href="#">股东动态</a></li>
+						<li><span></span><a href="#">行业视点</a></li>
+						<li><span></span><a href="#">媒体报道</a></li>
+					</ul>
+				</div>
+				<div class="footer_con_item">
+					<h2><a href="../rczx/hgrfc.html">人才中心</h2>
+					<ul>
+						<li><span></span><a href="../rczx/hgrfc.html">航港人风采</a></li>
+						<li><span></span><a href="#">人才理念</a></li>
+						<li><span></span><a href="#">社会招聘</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer_neikan">
+				<p>航港全媒体</p>
+				<p>All media</p>
+				<a href=""><img src="../img/footer_qiye_neikan.jpg" alt=""></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="info">
+		<div class="info_container container">
+			<span class="info_logo xs_hidden"><img src="../img/info_logo_2.png" alt=""></span>
+			<div class="info_message">
+				<span>版权所有：航港发展有限公司</span>
+				<span>京ICP</span>
+				<span>备13028915号-3</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="fixed_message">
+		<a href="" class="fixed_online xs_hidden"><img src="../img/tubiao/online_liuyan.gif" alt=""></a>
+		<a href="javascript:void(0)" class="fixed_top"><img src="../img/tubiao/top_1.gif" alt=""></a>
+	</div>
+
+</body>
+</html>	

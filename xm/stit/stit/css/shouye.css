@@ -1,0 +1,433 @@
+
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	text-decoration: none;
+	font-family: "微软雅黑";
+	list-style: none;
+}
+a{color:black;}
+
+
+/*头部部分start*/
+
+header{
+	width:1310px;
+	height:78px;
+	/*background:green;*/
+}
+.head_center{
+	width:1230px;
+	height:78px;
+	margin:0 auto;
+	
+}
+.logo{
+	width:520px;
+	margin-top:15px;
+	float:left;
+}
+.header_ul>li{
+	width:auto;
+	height:78px;
+	float:left;
+	background:rgba(0,0,0,0);
+	position: relative;
+	padding:0 16px 0 16px;
+	line-height: 78px;
+	font-size:14px;
+	font-weight:bold;
+}
+.header_ul li>a{
+	color:#666666;
+	display:block;
+}
+.service{
+	width:100px;
+	height:78px;
+	float: left;
+	border-left:1px solid #dadada;
+}
+.service img{
+	margin:20px 0 0 20px;
+}
+.header_p{
+	display: none;
+	width:100%;
+	height:100%;
+	bottom:0;
+	left:0;
+	position: absolute;
+	z-index:-1;
+    background:#d71820;
+}
+.header_p2{
+	display:block;
+	width:100%;
+	height:100%;
+	bottom:0;
+	left:0;
+	position: absolute;
+	z-index:-1;
+    background:#d71820;
+}
+#head_li>a{
+    color:white;
+}
+/*导航隐藏部分*/
+#nav_hide{
+	display:none;
+	width:790px;
+	height:65px;
+	background:#4c4a4f;
+	position:absolute;
+	top:78px;
+    left:0;
+    z-index:1000;
+}
+#nav_hide ul{
+	margin-left:80px;
+}
+#nav_hide ul li{
+	width:80px;
+	height:65px;
+	float: left;
+	text-align: center;
+	line-height: 65px;
+}
+#nav_hide ul li a{
+	color:#d2ced5;
+	display: block;
+}
+#nav_hide ul li a:hover{
+	color:#d71820;
+}
+
+/*头部end*/
+
+
+/*轮播图start*/
+.show{
+	width:100%;
+	height:420px;
+	position: relative;
+	overflow:hidden;
+}
+.show_ul{
+	width:300%;
+	height:420px;
+	position:absolute;
+}
+.show_ul li{
+	width:33.33%;
+	height:420px;
+	float: left;
+}
+.show_ul li img{
+	width:100%;
+	height:420px;
+}
+
+/*下部按钮*/
+.show_btn{
+	  position:absolute;
+	  top:390px;
+	  left:100px;
+	  z-index: 10;
+}
+.show_btn li{
+    cursor: pointer;
+	width:9px;
+	height:9px;
+	float:left;
+	margin-left:10px;
+}
+.show_btnli1{
+	border:2px solid #cccccc;
+	background:#cccccc;
+	border-radius:50%;
+}
+.show_btnli2{
+	border:2px solid white;
+	border-radius:50%;
+	background:none;
+	transition:background-color 1.5s linear;
+	transition:border-color 1s linear;
+}
+.show_btnli3{
+	border:2px solid #1c1c1c;
+	border-radius:50%;
+	background:#cccccc;
+}
+
+/*左右按钮*/
+.btn_left{
+	cursor: pointer;
+	width:50px;
+	height:50px;
+	position: absolute;
+	top:190px;
+	left:-60px;
+	background:url(../img/shouye/btn.png) no-repeat;
+}
+.btn_right{
+	cursor: pointer;
+	width:50px;
+	height:50px;
+	position: absolute;
+	top:190px;
+	right:-60px;
+	background:url(../img/shouye/btn.png) no-repeat;
+	background-position:0 -100px; 
+}
+
+
+/*主体部分*/
+
+/*走进盛通start*/
+
+.know{
+	width:100%;
+	height:230px;
+	margin-top:60px;
+}
+.know_center{
+	width:1201px;
+	height:230px;
+	margin:0 auto;
+}
+.know_left{
+	width:710px;
+	height:230px;
+	float:left;
+}
+.know_name{
+	width:710px;
+	height:35px;
+    font-size:18px;
+    background:url(../img/shouye/dibutiao.png) no-repeat;
+    background-position:0 30px;
+}
+.main_span{
+   color:#d71820;
+}
+.know_p1,.know_p2{
+	width:710px;
+	height:85px;
+	margin-top:10px;
+	font-size:13px;
+	color:#575656;
+	line-height:25px
+}
+.know_right{
+	float:right;
+}
+
+/*产品服务*/
+
+.serve{
+	width:100%;
+	height:290px;
+	background:#f5f7f8;
+	margin-top:20px;
+	padding-top:30px;
+}
+.serve_center{
+	width:1201px;
+	height:290px;
+	margin:0 auto;
+}
+.serve_top{
+	width:1201px;
+	height:35px;
+	background: url(../img/shouye/serve_down.png) no-repeat;
+	background-position: 0 33px;
+	font-size:18px;
+}
+.serve_ul li{
+   width:240px;
+   height:185px;
+   float:left;
+   margin-top:20px;
+}
+.serve_ul li a{
+	padding:30px;
+	display:block;
+}
+.serve_li1{background:url(../img/shouye/serve1.png) no-repeat;}
+.serve_li2{background:url(../img/shouye/serve2.png) no-repeat;}
+.serve_li3{background:url(../img/shouye/serve3.png) no-repeat;}
+.serve_li4{background:url(../img/shouye/serve4.png) no-repeat;}
+.serve_li5{background:url(../img/shouye/serve5.png) no-repeat;}
+.serve_li1:hover,.serve_li2:hover,.serve_li3:hover,.serve_li4:hover,.serve_li5:hover{
+	background-position:0 -190px;
+}
+
+
+/*新闻动态*/
+
+.news{
+	width:100%;
+	height:530px;
+	margin-top:30px;
+}
+
+.new_center{
+	width:1201px;
+	height:530px;
+	margin:0 auto;
+}
+.new_left{
+    width:830px;
+    height:500px;
+    float:left;
+}
+.newLeft_top{
+	width:830px;
+	height:32px;
+	font-size:18px;
+	background:url(../img/shouye/newtiao.png) no-repeat;
+	background-position:0 31px;
+}
+.new_left ul li{
+   width:830px;
+   height:125px;
+   margin-top:22px;
+}
+.new_picture{
+	float:left
+}
+.new_picture img{
+	width:226px;
+	height:122px;
+}
+.new_word{	
+	width:572px;
+	height:125px;
+	float:right;
+}
+.newWord_p1{
+	width:571px;
+	height:25px;
+}
+.new_span1 a{
+	color:#d71820;
+	font-size: 14px;
+}
+.new_span2{
+	float:right;
+	margin-top:3px;
+	font-size:12px;
+	color:#999999;
+}
+.newWord_p2{
+	width:572px;
+	height:76px;
+	font-size:12px;
+	line-height:25px
+}
+.new_a{
+	font-size:12px;
+	color:#999999;
+}
+.new_righr{
+	width:338px;
+	height:500px;
+	float:right;
+}
+
+.new_righr ul li{
+	margin-top:5px;
+}
+
+/*主体end*/
+
+
+/*页脚部分start*/
+
+footer{
+	width:100%;
+	height:165px;
+	background:#659aa7;
+}
+.foot_center{
+	width:1201px;
+	height:135px;
+	margin:0 auto;
+}
+.foot_left{
+	width:910px;
+	height:135px;
+	margin-top:25px;
+	float:left;
+}
+.foot_left p{
+   width:900px;
+   height:35px;
+   color:white;
+   font-size:14px;
+}
+#foot_p{
+	height:60px;
+	font-size:25px;
+}
+.foot_span1{
+  padding:12px 0px 10px 60px;
+  background:url(../img/shouye/ren.png) no-repeat;
+  background-position:0 10px;
+}
+.foot_span2{
+  padding:12px 0px 10px 180px;
+  background:url(../img/shouye/phone.png) no-repeat;
+  background-position:120px 15px;
+}
+.foot_right{
+	width:290px;
+	height:135px;
+	float:right;
+	margin-top:20px;
+}
+.foot_right ul li{
+	width:114px;
+	float:left;
+	margin-left:27px;
+	
+}
+.foot_right ul li p{
+	font-size:12px;
+	color:white;
+	text-align: center;
+}
+.foot_right ul li img{
+	width:114px;
+	height:114px;
+}
+
+
+
+
+/*响应式*/
+
+@media(min-width:300px) and (max-width:1310px){
+
+header{
+	width:1310px;
+}
+.show{
+	width:1310px;
+}
+.know{
+	width:1310px;
+}
+.serve{
+	width:1310px;
+}
+.news{
+	width:1310px;
+}
+.footer{
+	width:1310px;
+}
+
+}

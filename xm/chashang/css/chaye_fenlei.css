@@ -1,0 +1,662 @@
+@charset "utf-8"
+/* CSS Document */
+
+*{  
+	margin:0px;
+	padding:0px;
+}
+body,div,ul,ol,li,h1,h2,h3,h4,h5,h6,table,tr,td,th{
+	margin:0px;
+	padding:0px;
+	font-family:'Microsoft Yahei',Tahoma,Helvetica,Arial,sans-serif;
+	font-size:1em;
+}
+.clearfix{
+	clear:both;
+}
+ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+li{
+	margin:0px;
+	padding:0px;
+}
+
+
+img{
+	margin:0px;
+	padding:0px;
+	vertical-align:middle;
+	border:none;
+}
+a{
+	text-decoration:none;
+	display:block;
+}
+
+
+
+
+/* 这是头部 */
+/* 这是头部 */
+/* 这是头部 */
+/* 这是头部 */
+/* 这是头部 */
+
+
+
+#header{
+	width:1920px;
+	height:60px;
+	margin:0 auto;
+}
+#header .center{
+	width:1920px;
+	height:60px;
+	background-color:#333333;
+}
+.logo{
+	width:400px;
+	height:60px;
+	line-height:0px;
+	font-size:0px;
+	overflow:hidden;
+	background-image:url(../img/logo.png);
+	background-repeat:no-repeat;
+	/* background-size:50% 100%; */
+	background-position:center center;
+	z-index:10;
+	float:left;
+}
+.none{
+	line-height:0px;
+	font-size:0px;
+	overflow:hidden;
+}
+.link{
+	width:900px;
+	height:60px;
+	float:right;
+	background-color:#333333; 
+}
+.link ul{
+	list-style:none;
+	height:60px;
+}
+.link ul li{
+	width:150px;
+	float:left;
+	line-height:60px;
+	text-align:center;
+	
+}
+.link ul li a{
+	color:#ffffff;
+	font-size:1.5em;
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+.link ul li:hover{
+	background-color:#000;
+}
+.link ul li a:hover{
+	color:red;
+}
+
+/* 这是宣传图片 */
+/* 这是宣传图片 */
+/* 这是宣传图片 */
+/* 这是宣传图片 */
+/* 这是宣传图片 */
+
+
+#adver{
+	width:1920px;
+	height:auto;
+	margin:0 auto;
+	position:relative;
+}
+#adver img{
+	width:1920px;
+	height:auto;
+}
+
+
+
+
+
+/* 这是内容 */
+/* 这是内容 */
+/* 这是内容 */
+/* 这是内容 */
+/* 这是内容 */
+
+
+
+
+#good{
+	width:1880px;
+	
+	height:1100px;
+	
+	/* 	height:auto; */
+	
+	background-color:rgb(245,245,245);
+	
+	/* background-color:green; */
+	margin:10px auto;
+	padding:20px;
+}
+
+
+#footer{
+	width:1920px;
+	background-color:rgb(34,34,34);
+	margin:0 auto;
+	margin-top:20px;
+	padding-top:10px ; 
+}
+
+
+
+.good_fenlei{
+	width:1150px;
+	height:970px;
+	/* border:1px solid red; */
+	margin-left:40px;
+	padding:40px;
+	float:left;
+	
+}
+.good_fenlei h2{
+	font-size:2.5em;
+	line-height:60px;
+	text-align:left;
+	font-weight:400;
+	color:rgb(102,102,102);
+}
+.good_fenlei hr{
+	border:2px dashed rgb(153,153,153); 
+	line-height:30px;
+	margin:20px 0;
+}
+
+
+
+
+.good_article{
+	width:1150px;
+	height:810px;
+	/* border:1px solid green; */
+	margin:20px auto;
+}
+.good_article figure{
+	width:350px;
+	height:auto;
+	margin:10px;
+	padding:3px;
+	float:left;
+	border:1px solid rgb(221,221,221);
+	border-radius:10px;
+}
+
+.good_article figure img{
+	width:98%;
+	height:auto;
+	margin:0 1%;
+}
+.figure_title{
+	text-align:center;
+	color:rgb(102,102,102);
+	font-size:1.5em;
+}
+.good_jiazai{
+	width:1150px;
+	height:70px;
+	text-align:center;
+	/* border:1px solid red; */
+}
+.good_jiazai input{
+	width:200px;
+	height:60px;
+	font-size:1.1em;
+	font-weight:600;
+	margin-top:4px;
+	background-color:rgb(250,250,250);
+	border:1px solid rgb(204,204,204);
+	border-radius:10px;
+}
+
+
+/* 这是表格3 */
+/* 这是表格3 */
+/* 这是表格3 */
+/* 这是表格3 */
+/* 这是表格3 */
+
+
+
+.table3{
+	width:500px;
+	height:490px;
+	font-size:20px;
+	color:rgb(102,102,102);
+	text-align:center;
+	float:left;
+	margin-left:20px;
+	/* border:1px solid red; */
+}
+
+.table3_nav{
+	width:500px;
+	height:60px;
+	line-height:60px;
+	font-size:25px;
+	text-align:left;
+	border-bottom:1px solid rgb(238,238,238);
+	background-color:rgb(250,250,250);
+} 
+.table3_tuijian{
+	width:465px;
+	height:400px;
+	padding-top:20px;
+	padding-left:17.5px;
+	padding-right:17.5px;
+	background-color:rgb(255,255,255);
+}
+.tuijian3{
+	width:145px;
+	height:380px;
+	line-height:60px;
+	float:left;
+	margin:0 5px;
+}
+
+.tuijian3 ul{
+	width:145px;
+	height:60px;
+}
+.tuijian3 ul li{
+	width:141px;
+	height:60px;
+	background-color:rgb(238,238,238);
+	border:3px solid rgb(255,255,255);
+}
+.tuijian3 ul li a{
+	color:rgb(102,102,102);
+}
+.tuijian3 ul li:hover{
+	background-color:green;
+}
+.tuijian3 ul li a:hover{
+	color:#fff;
+	font-size:23px;
+}
+
+
+
+
+
+
+/* 这是表格4 */
+/* 这是表格4 */
+/* 这是表格4 */
+/* 这是表格4 */
+/* 这是表格4 */
+
+
+
+
+.table4{
+	width:500px;
+	height:230px;
+	font-size:20px;
+	color:rgb(102,102,102);
+	text-align:center;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	/* border:1px solid red; */
+}
+.table4_nav{
+	width:500px;
+	height:60px;
+	line-height:60px;
+	font-size:25px;
+	text-align:left;
+	border-bottom:1px solid rgb(238,238,238);
+	background-color:rgb(250,250,250);
+} 
+.table4_baodian{
+	width:465px;
+	height:140px;
+	padding-top:20px;
+	padding-left:17.5px;
+	padding-right:17.5px;
+	background-color:rgb(255,255,255);
+}
+.baodian4{
+	width:216.5px;
+	height:450px;
+	line-height:60px;
+	float:left;
+	margin:0 5px;
+	/* border:1px solid red; */
+}
+
+.baodian4 ul{
+	width:216.5px;
+	height:60px;
+}
+.baodian4 ul li{
+	width:216.5px;
+	height:60px;
+	background-color:rgb(238,238,238);
+	border:3px solid rgb(255,255,255);
+}
+.baodian4 ul li a{
+	color:rgb(102,102,102);
+}
+.baodian4 ul li:hover{
+	background-color:green;
+}
+.baodian4 ul li a:hover{
+	color:#fff;
+	font-size:30px;
+}
+
+
+
+
+
+/* 这是页脚 */
+/* 这是页脚 */
+/* 这是页脚 */
+/* 这是页脚 */
+/* 这是页脚 */
+
+.clearfix{
+	clear:both;
+}
+
+#footer{
+	width:1920px;
+	height:auto;
+	background-color:rgb(34,34,34);
+	margin:0 auto;
+	margin-top:20px;
+	padding-top:10px ; 
+}
+#footer .top{
+	width:1800px;
+	height:350px;
+	margin:10px auto;
+	padding:10px;
+	/* border:1px solid red; */
+}
+
+.block{
+	width:550px;
+	/* min-width:320px; */
+	height:auto;
+	margin:10px 20px;
+	padding:10px 5px;
+	float:left;
+	/* border:1px solid blue; */
+}
+
+.block h2{
+	color:rgb(204,204,204);
+}
+.block hr{
+	border:1px dashed rgb(51,51,51);
+}
+.block ul{
+	list-style:none;
+	font-size:20px;
+	line-height:40px;
+}
+.block ul li{
+	color:rgb(102,102,102);
+}
+
+.sm-visible{
+	line-height:0px;
+	font-size:0px;
+	overflow:hidden;
+}
+
+.bottom{
+	width:1920px;
+	height:60px;
+	line-height:60px;
+	font-size:20px;
+	text-align:center;
+	float:left;
+	border-top:1px solid rgb(68,68,68);
+	background-color:rgb(0,0,0);
+	color:rgb(119,119,119);
+}
+
+
+
+/* 分辨率宽度在320px~767px之间会应用下列属性 */
+/* 分辨率宽度在320px~767px之间会应用下列属性 */
+/* 分辨率宽度在320px~767px之间会应用下列属性 */
+/* 分辨率宽度在320px~767px之间会应用下列属性 */
+/* 分辨率宽度在320px~767px之间会应用下列属性 */
+/* 分辨率宽度在320px~767px之间会应用下列属性 */
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+	
+	body{
+		margin:0px;
+		padding:0px;
+	}
+	
+	
+	#header,#header .center, #header .link{
+		width:100%;
+		height:45px;
+	}
+	#header .logo,.none, .sm-hidden, .md-hidden, .xs-hidden,sidebar{
+		display:none;
+	}
+	.link ul{
+		width:100%;
+		height:45px;
+	}
+	.link ul li{
+		width:25%;
+		height:45px;
+		line-height:45px;
+		text-align:center;
+	}
+	#adver{
+		width:100%;
+		height:auto;
+		position:relative;
+	}
+	#adver img{
+		width:100%;
+	}
+	
+	#good{
+		width:100%;
+		height:4700px;
+		padding:0px;
+		margin:0;
+	}
+	
+	.good_fenlei{
+		width:94%;
+		height:auto;
+		margin-left:0px;
+		margin:0 3%;
+		padding:0px; 
+	}
+
+	
+	
+	.good_article{
+		width:100%;
+		height:auto;
+		
+	}
+	.good_article figure{
+		width:90%;
+		height:auto;
+		margin:10px 3%;
+		padding:2%;
+	}
+	.good_jiazai{
+		width:100%;
+		height:70px;
+	}
+
+
+
+	/* 这是表格3 */
+	/* 这是表格3 */
+	/* 这是表格3 */
+	/* 这是表格3 */
+	/* 这是表格3 */
+
+
+
+	.table3{
+		width:94%;
+		margin:0 3%;
+		margin-top:20px;
+	}
+
+	.table3_nav{
+		width:100%;
+	} 
+	.table3_tuijian{
+		width:94%;
+		padding-left:3%;
+		padding-right:3%;
+	}
+	.tuijian3{
+		width:30.33%;
+		margin:0 1.5%;
+	}
+
+	.tuijian3 ul{
+		width:100%;
+	}
+	.tuijian3 ul li{
+		width:100%;
+		font-size:14px;
+	}
+	.tuijian3 ul li a:hover{
+		font-size:16px;
+	}
+
+
+	/* 这是表格4 */
+	/* 这是表格4 */
+	/* 这是表格4 */
+	/* 这是表格4 */
+	/* 这是表格4 */
+
+
+
+
+	.table4{
+		width:94%;
+		margin:0 3%;
+		margin-top:20px;	
+	}
+	.table4_nav{
+		width:100%;
+	} 
+	.table4_baodian{
+		width:94%;
+		padding-left:3%;
+		padding-right:3%;
+	}
+	.baodian4{
+		width:48%;
+		margin:0 1%;
+	}
+
+	.baodian4 ul{
+		width:100%;
+	}
+	.baodian4 ul li{
+		width:100%;
+	}
+
+
+
+/* 这是页脚 */
+/* 这是页脚 */
+/* 这是页脚 */
+/* 这是页脚 */
+/* 这是页脚 */	
+
+	
+
+	#footer{
+		width:100%;
+		height:1000px;;
+		margin:0 auto;
+		margin-top:20px;
+		/* padding-top:10px ; */ 
+	}
+	#footer .top{
+		width:90%;
+		height:900px;
+		margin:10px auto;
+		display:block;
+		/* padding:2%; */
+		/* border:1px solid red; */
+	}
+
+	.block{
+		width:90%;
+		height:auto;
+		margin:3%;
+		padding:2%;
+		/* border:1px solid red; */
+	}
+
+	.bottom{
+		width:100%;
+		height:120px;
+		line-height:60px;
+		font-size:18px;
+		text-align:center;
+		border-top:3px solid rgb(68,68,68);
+		background-color:rgb(0,0,0);
+		color:rgb(119,119,119);
+	}
+	.bottom .sm-hidden{
+		display:block;
+	}	
+		
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

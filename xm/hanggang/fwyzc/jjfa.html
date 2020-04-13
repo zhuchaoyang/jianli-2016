@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,user-scalable=no">
+	<title>航港发展有限公司</title>
+	<link type="text/css" rel="stylesheet" href="../css/style.css"/>
+	<link type="text/css" rel="stylesheet" href="../css/fwyzc/jjfa.css"/>
+	<link type="text/css" rel="stylesheet" href="../css/hover3d.css"/>				<!--hover3d  css-->	
+
+	<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>			<!--jQuery插件-->
+	<script type="text/javascript" src="../js/jquery.SuperSlide.2.1.1.js"></script>	<!--SuperSlide插件-->			
+	<script type="text/javascript" src="../js/jquery.hover3d.js" ></script>			<!--hover3d插件-->
+	<script type="text/javascript" src="../js/fwyzc/fwyzc.js"></script>						<!--内容js-->
+	<script type="text/javascript" src="../js/script.js"></script>						<!--框架js-->
+
+	<style>
+	
+	</style>
+
+	<script>
+		$(document).ready(function(){
+			$(".project").hover3d({
+				selector: ".project__card",
+				shine: true,
+				sensitivity: 20,
+			});
+		});
+	</script>
+
+</head>
+
+<body>
+
+<!--这是头部-->
+	<div class="header xs_hidden">
+		<div class="top_yuyan">
+			<div class="top_yuyan_container container">
+				<div class="yuyan">
+					<span><a href="" class="yuyan_active">中文</a></span>
+					<span>|</span>
+					<span>ENG</span>
+				</div>
+			</div>
+		</div>
+		<div class="top_bar">
+			<div class="top_container container">
+				<div class="top_logo"><a href="../index.html"><img src="../img/tubiao/logo_1.gif" alt=""></a></div>
+				<div class="top_line">
+					<ul id="top_nav" class="top_nav clearfix">
+						<li class="nLi " >
+							<h3><a href="../index.html" >首页</a></h3>
+						</li>
+						<li class="nLi">
+							<h3><a href="../gyhg/gsjj.html" >关于航港</a></h3>
+							<ul class="sub" style="display: none;left: 0px;">
+								<li><a href="../gyhg/gsjj.html">公司介绍</a></li>
+								<li><a href="../gyhg/gltd.html">管理团队</a></li>
+								<li><a href="../gyhg/gsdsj.html">公司大事记</a></li>
+								<li><a href="../gyhg/shzr.html">社会责任</a></li>
+								<li><a href="../gyhg/lxwm.html">联系我们</a></li>
+							</ul>
+						</li>
+						<li class="nLi on" >
+						<!-- 假设当前频道为“预告片”，手动或后台程序添加titOnClassName类名（默认是'on'），相当于设置参数defaultIndex:1。若同时设置参数returnDefault:true，则鼠标移走后0.3秒返回当前频道 -->
+							<h3><a href="../ACLP/aclpjs.html" >我们的项目</a></h3>
+							<ul class="sub" style="left: -145px;">
+								<li><a href="../ACLP/aclpjs.html">ACLP介绍</a></li>
+								<li><a href="../ACLP/gnq.html">功能区详述</a></li>
+								<li><a href="../ACLP/hykh.html">行业客户</a></li>
+							</ul>
+						</li>
+						<li class="nLi " id="nLi_active">
+							<h3><a href="../fwyzc/zlyw.html" >服务与支持</a></h3>
+							<ul class="sub" style="left: -290px;">
+								<li><a href="../fwyzc/zlyw.html">租赁业务</a></li>
+								<li><a href="../fwyzc/wyfw.html">物业服务</a></li>
+								<li><a href="../fwyzc/zxgl.html">咨询管理</a></li>
+								<li><a href="../fwyzc/jjfa.html">IT解决方案</a></li>
+								<li><a href="#">意见反馈</a></li>
+								<li><a href="# ">下载专区</a></li>
+							</ul>
+						</li>
+						<li class="nLi">
+							<h3><a href="../xwysd/gsxw.html" >新闻与视点</a></h3>
+							<ul class="sub" style="left: -435px;">
+								<li><a href="../xwysd/gsxw.html">公司新闻</a></li>
+								<li><a href="#">股东动态</a></li>
+								<li><a href="#">行业视点</a></li>
+								<li><a href="#">媒体报道</a></li>
+							</ul>
+						</li>
+						<li class="nLi"  >
+							<h3><a href="../rczx/hgrfc.html" >人才中心</a></h3>
+							<ul class="sub" style="left: -580px;">
+								<li><a href="../rczx/hgrfc.html">航港人风采</a></li>
+								<li><a href="#">人才理念</a></li>
+								<li><a href="#">社会招聘</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<script id="jsID" type="text/javascript">
+			
+			jQuery("#top_nav").slide({ 
+				type:"menu",// 效果类型，针对菜单/导航而引入的参数（默认slide）
+				titCell:".nLi", //鼠标触发对象
+				targetCell:".sub", //titCell里面包含的要显示/消失的对象
+				effect:"slideDown", //targetCell下拉效果
+				delayTime:300 , //效果时间
+				triggerTime:0, //鼠标延迟触发时间（默认150）
+			});
+		</script>
+	</div>
+
+<!--手机nav-->
+	<div class="header_xs">
+		<div class="top_yuyan_xs">
+			<div class="header_logo_xs"><img src="../img/tubiao/logo_1.gif" alt=""></div>
+			<div class="yuyan">
+				<span><a href="" style="color: rgb(199,0,18);">中文</a></span>
+				<span>|</span>
+				<span>ENG</span>
+			</div>
+		</div>
+
+		<div class="top_bar_xs">
+			<ul class="top_nav_xs">
+				<li><a href="../index.html" >首页</a></li>
+				<li><a href="../gyhg/gsjj.html" >关于航港</a></li>
+				<li><a href="../ACLP/aclpjs.html">我们的项目</a></li>
+				<li><a href="../fwyzc/zlyw.html" style="background-color: rgba(0,0,0,0.7);">服务与支持</a></li>
+				<li><a href="../xwysd/gsxw.html">新闻与视点</a></li>
+				<li><a href="../rczx/hgrfc.html">人才中心</a></li>
+			</ul>
+		</div>
+	</div>
+
+
+<!--这是内容-->	
+	<div class="center">
+		<div class="center_show_pic container">
+			<img src="../img/center_show_pic.jpg" alt="">
+		</div>
+
+		<div class="center_container container">
+
+			<div class="center_slide">  
+				<h2>服务与支持</h2>
+				<ul class="center_nav">
+					<li class="center_item"><a href="../fwyzc/zlyw.html">租赁业务<span class="center_item_pic"><img src="../img/tubiao/quannei_sanjiao.png" alt=""></span></a></li>
+					<li class="center_item"><a href="../fwyzc/wyfw.html">物业服务<span class="center_item_pic"><img src="../img/tubiao/quannei_sanjiao.png" alt=""></span></a></li>
+					<li class="center_item"><a href="../fwyzc/zxgl.html">咨询管理<span class="center_item_pic"><img src="../img/tubiao/quannei_sanjiao.png" alt=""></span></a></li>
+					<li id="center_item_active" class="center_item"><a href="../fwyzc/jjfa.html">IT解决方案<span id="center_item_pic_active" class="center_item_pic"><img src="../img/tubiao/quannei_sanjiao.png" alt=""></span></a></li>
+					<li class="center_item"><a href="#">意见反馈<span class="center_item_pic"><img src="../img/tubiao/quannei_sanjiao.png" alt=""></span></a></li>
+					<li class="center_item"><a href="#">下载专区<span class="center_item_pic"><img src="../img/tubiao/quannei_sanjiao.png" alt=""></span></a></li>
+				</ul>
+			</div>
+
+			<div class="center_text">
+				<div class="center_title">
+					<div class="center_title_top">
+						<div class="center_t">IT解决方案</div>
+						<div class="location">
+							<span class="xs_hidden">你的位置：</span>
+							<a href="../index.html">首页</a>
+							<span>&gt;</span>
+							<a href="../fwyzc/zlyw.html">服务与支持</a>
+							<span>&gt;</span>
+							<a href="../fwyzc/jjfa.html">IT解决方案</a>
+						</div>
+					</div>
+					<div class="center_title_line"></div>
+					<div class="center_title_bottom">IT Solutions</div>
+				</div>
+				<div class="center_article">
+					<div class="center_article_header">
+						<p>航港发展竭诚为您提供航空物流园专业信息技术解决方案，伴您发展，助您腾飞！</p>
+					</div>
+					<div class="center_article_pic"><img src="../img/fwyzc/jjfa.jpg" alt=""></div>
+					<div class="c_a" style="margin: 20px 0; ">
+						<h3 class="c_a_title" style="margin: 0px;">我们的特点和优势</h3>
+						<p class="c_a_p2" style="margin-top: 20px;	">依托标准IDC机房、遍布园区的标准机柜、以及联通、电信双路由接入，我们为您提供定制化专属的机房机位租赁和主机托管解决方案，无论您的信息化处在哪个阶段，均可获得悉心呵护与专业保障，让您专注核心业务，避免掉电、落尘、宕机、损毁、业务中断等烦恼。</p>
+						<p class="c_a_p2">依托纵横园区与通关办公楼的通信管网、主干光纤和网络平台，我们为您提供高性价比和便捷的专业组网解决方案，为您搭连接集团公司、连接各功能区、连接监管单位的信息化网络之桥，无论身处何处，安全便捷访问业务。</p>
+						<p class="c_a_p2">依托PaaS理念和技术支撑以及我们对口岸物流园技术保障的理解，我们为您的视频监控系统、综合布线系统、通信网络系统、桌面管理系统等提供一站式的技术与运维解决方案，降低投资成本，保障技术支撑。平台即服务的一站式解决方案祝您业务腾飞。</p>
+					</div>
+
+					<div class="c_a" style="margin-top: 20px;">
+						<h3 class="c_a_title" >我们的服务项目</h3>
+						<p class="c_a_p1" style="margin-top: 20px;">1. DC机房主机托管解决方案</p>
+						<p class="c_a_p1">2. 区域组网解决方案</p>
+						<p class="c_a_p1">3. 园区网综合应用解决方案</p>
+						<p class="c_a_p1">4. 库区监控系统整合应用与维护解决方案</p>
+						<p class="c_a_p1">5. 驻地网通信解决方案</p>
+						<p class="c_a_p1">6. 综合布线解决方案</p>
+						<p class="c_a_p1">7. 桌面维护解决方案</p>
+						<p class="c_a_p1" >8. 园区业务支撑解决方案-咨询</p>
+					</div>
+					<div class="c_a" style="margin: 20px 0; ">
+						<h3 class="c_a_title" style="margin: 0px;">我们的特点和优势</h3>
+						<p class="c_a_p2" style="margin-top: 20px;	">依托标准IDC机房、遍布园区的标准机柜、以及联通、电信双路由接入，我们为您提供定制化专属的机房机位租赁和主机托管解决方案，无论您的信息化处在哪个阶段，均可获得悉心呵护与专业保障，让您专注核心业务，避免掉电、落尘、宕机、损毁、业务中断等烦恼。</p>
+						<p class="c_a_p2">依托纵横园区与通关办公楼的通信管网、主干光纤和网络平台，我们为您提供高性价比和便捷的专业组网解决方案，为您搭连接集团公司、连接各功能区、连接监管单位的信息化网络之桥，无论身处何处，安全便捷访问业务。</p>
+						<p class="c_a_p2">依托PaaS理念和技术支撑以及我们对口岸物流园技术保障的理解，我们为您的视频监控系统、综合布线系统、通信网络系统、桌面管理系统等提供一站式的技术与运维解决方案，降低投资成本，保障技术支撑。平台即服务的一站式解决方案祝您业务腾飞。</p>
+					</div>
+					<div class="c_a" style="margin-top: 20px;">
+						<h3 class="c_a_title" >业务咨询</h3>
+						<p class="c_a_p1">
+							总机： 86-10-8941 3888</br>
+							传真： 86-10-8941 3988</br>
+							地址：中国北京市顺义区机场北街8号院2幢航港国际大厦9层</br>
+							邮箱：acl@airportcity.cn
+						</p>
+					</div>					
+					
+				</div>
+
+			</div>
+
+
+		</div>
+	</div>
+	<div class="clearfix"></div>
+<!--这是脚部-->
+
+
+	<div class="footer xs_hidden">
+		<div class="footer_container container">
+			<div class="footer_con">
+				<div class="footer_con_item">
+					<h2><a href="../index.html">首页</h2>
+				</div>
+				<div class="footer_con_item">
+					<h2><a href="../gyhg/gsjj.html">关于港航</h2>
+					<ul>
+						<li><span></span><a href="../gyhg/gsjj.html">公司介绍</a></li>
+						<li><span></span><a href="../gyhg/gltd.html">管理团队</a></li>
+						<li><span></span><a href="../gyhg/gsdsj.html">公司大事记</a></li>
+						<li><span></span><a href="../gyhg/shzr.html">社会责任</a></li>
+						<li><span></span><a href="../gyhg/lxwm.html">联系我们</a></li>
+					</ul>
+				</div>
+				<div class="footer_con_item">
+					<h2><a href="../ACLP/aclpjs.html">我们的项目</h2>
+					<ul>
+						<li><span></span><a href="../ACLP/aclpjs.html">ACLP介绍</a></li>
+						<li><span></span><a href="../ACLP/gnq.html">功能区详述</a></li>
+						<li><span></span><a href="../ACLP/hykh.html">行业客户</a></li>
+					</ul>
+				</div>
+				<div class="footer_con_item">
+					<h2><a href="../fwyzc/zlyw.html">服务与支持</h2>
+				<ul>
+					<li><span></span><a href="../fwyzc/zlyw.html">租赁业务</a></li>
+					<li><span></span><a href="../fwyzc/wyfw.html">物业服务</a></li>
+					<li><span></span><a href="../fwyzc/zxgl.html">咨询管理</a></li>
+					<li><span></span><a href="../fwyzc/jjfa.html">IT解决方案</a></li>
+					<li><span></span><a href="#">意见反馈</a></li>
+					<li><span></span><a href="#">下载专区</a></li>
+				</div>
+				<div class="footer_con_item">
+					<h2><a href="../xwysd/gsxw.html">新闻与视点</h2>
+					<ul>
+						<li><span></span><a href="../xwysd/gsxw.html">公司新闻</a></li>
+						<li><span></span><a href="#">股东动态</a></li>
+						<li><span></span><a href="#">行业视点</a></li>
+						<li><span></span><a href="#">媒体报道</a></li>
+					</ul>
+				</div>
+				<div class="footer_con_item">
+					<h2><a href="../rczx/hgrfc.html">人才中心</h2>
+					<ul>
+						<li><span></span><a href="../rczx/hgrfc.html">航港人风采</a></li>
+						<li><span></span><a href="#">人才理念</a></li>
+						<li><span></span><a href="#">社会招聘</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer_neikan">
+				<p>航港全媒体</p>
+				<p>All media</p>
+				<a href=""><img src="../img/footer_qiye_neikan.jpg" alt=""></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="info">
+		<div class="info_container container">
+			<span class="info_logo xs_hidden"><img src="../img/info_logo_2.png" alt=""></span>
+			<div class="info_message">
+				<span>版权所有：航港发展有限公司</span>
+				<span>京ICP</span>
+				<span>备13028915号-3</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="fixed_message">
+		<a href="" class="fixed_online xs_hidden"><img src="../img/tubiao/online_liuyan.gif" alt=""></a>
+		<a href="javascript:void(0)" class="fixed_top"><img src="../img/tubiao/top_1.gif" alt=""></a>
+	</div>
+
+
+</body>
+</html>	

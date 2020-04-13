@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0,user-scalable=no">
+	<title>航港发展有限公司</title>
+	<link type="text/css" rel="stylesheet" href="../css/style.css"/>
+	<link type="text/css" rel="stylesheet" href="../css/gyhg/gltd.css"/>
+	<link type="text/css" rel="stylesheet" href="../css/hover3d.css"/>				<!--hover3d  css-->	
+
+	<script type="text/javascript" src="../js/jquery-2.1.4.min.js"></script>			<!--jQuery插件-->
+	<script type="text/javascript" src="../js/jquery.SuperSlide.2.1.1.js"></script>	<!--SuperSlide插件-->			
+	<script type="text/javascript" src="../js/jquery.hover3d.js" ></script>			<!--hover3d插件-->
+	<script type="text/javascript" src="../js/gyhg/gyhg.js"></script>						<!--内容js-->
+	<script type="text/javascript" src="../js/script.js"></script>						<!--框架js-->
+
+	<style>
+	
+	</style>
+
+	<script>
+		$(document).ready(function(){
+			$(".project").hover3d({
+				selector: ".project__card",
+				shine: true,
+				sensitivity: 20,
+			});
+		});
+	</script>
+	
+</head>
+
+<body>
+
+<!--这是头部-->
+	<div class="header xs_hidden">
+		<div class="top_yuyan">
+			<div class="top_yuyan_container container">
+				<div class="yuyan">
+					<span><a href="" class="yuyan_active">中文</a></span>
+					<span>|</span>
+					<span>ENG</span>
+				</div>
+			</div>
+		</div>
+		<div class="top_bar">
+			<div class="top_container container">
+				<div class="top_logo"><a href="../index.html"><img src="../img/tubiao/logo_1.gif" alt=""></a></div>
+				<div class="top_line">
+					<ul id="top_nav" class="top_nav clearfix">
+						<li class="nLi " >
+							<h3><a href="../index.html" >首页</a></h3>
+						</li>
+						<li class="nLi" id="nLi_active">
+							<h3><a href="../gyhg/gsjj.html" >关于航港</a></h3>
+							<ul class="sub" style="display: none;left: 0px;">
+								<li><a href="../gyhg/gsjj.html">公司介绍</a></li>
+								<li><a href="../gyhg/gltd.html">管理团队</a></li>
+								<li><a href="../gyhg/gsdsj.html">公司大事记</a></li>
+								<li><a href="../gyhg/shzr.html">社会责任</a></li>
+								<li><a href="../gyhg/lxwm.html">联系我们</a></li>
+							</ul>
+						</li>
+						<li class="nLi on">
+						<!-- 假设当前频道为“预告片”，手动或后台程序添加titOnClassName类名（默认是'on'），相当于设置参数defaultIndex:1。若同时设置参数returnDefault:true，则鼠标移走后0.3秒返回当前频道 -->
+							<h3><a href="../ACLP/aclpjs.html" >我们的项目</a></h3>
+							<ul class="sub" style="left: -145px;">
+								<li><a href="../ACLP/aclpjs.html">ACLP介绍</a></li>
+								<li><a href="../ACLP/gnq.html">功能区详述</a></li>
+								<li><a href="../ACLP/hykh.html">行业客户</a></li>
+							</ul>
+						</li>
+						<li class="nLi ">
+							<h3><a href="../fwyzc/zlyw.html" >服务与支持</a></h3>
+							<ul class="sub" style="left: -290px;">
+								<li><a href="../fwyzc/zlyw.html">租赁业务</a></li>
+								<li><a href="../fwyzc/wyfw.html">物业服务</a></li>
+								<li><a href="../fwyzc/zxgl.html">咨询管理</a></li>
+								<li><a href="../fwyzc/jjfa.html">IT解决方案</a></li>
+								<li><a href="#">意见反馈</a></li>
+								<li><a href="# ">下载专区</a></li>
+							</ul>
+						</li>
+						<li class="nLi">
+							<h3><a href="../xwysd/gsxw.html" >新闻与视点</a></h3>
+							<ul class="sub" style="left: -435px;">
+								<li><a href="../xwysd/gsxw.html">公司新闻</a></li>
+								<li><a href="#">股东动态</a></li>
+								<li><a href="#">行业视点</a></li>
+								<li><a href="#">媒体报道</a></li>
+							</ul>
+						</li>
+						<li class="nLi"  >
+							<h3><a href="../rczx/hgrfc.html" >人才中心</a></h3>
+							<ul class="sub" style="left: -580px;">
+								<li><a href="../rczx/hgrfc.html">航港人风采</a></li>
+								<li><a href="#">人才理念</a></li>
+								<li><a href="#">社会招聘</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<script id="jsID" type="text/javascript">
+			
+			jQuery("#top_nav").slide({ 
+				type:"menu",// 效果类型，针对菜单/导航而引入的参数（默认slide）
+				titCell:".nLi", //鼠标触发对象
+				targetCell:".sub", //titCell里面包含的要显示/消失的对象
+				effect:"slideDown", //targetCell下拉效果
+				delayTime:300 , //效果时间
+				triggerTime:0, //鼠标延迟触发时间（默认150）
+			});
+		</script>
+	</div>
+
+<!--手机nav-->
+	<div class="header_xs">
+		<div class="top_yuyan_xs">
+			<div class="header_logo_xs"><img src="../img/tubiao/logo_1.gif" alt=""></div>
+			<div class="yuyan">
+				<span><a href="" style="color: rgb(199,0,18);">中文</a></span>
+				<span>|</span>
+				<span>ENG</span>
+			</div>
+		</div>
+
+		<div class="top_bar_xs">
+			<ul class="top_nav_xs">
+				<li><a href="../index.html" >首页</a></li>
+				<li><a href="../gyhg/gsjj.html" style="background-color: rgba(0,0,0,0.7);">关于航港</a></li>
+				<li><a href="../ACLP/aclpjs.html">我们的项目</a></li>
+				<li><a href="../fwyzc/zlyw.html">服务与支持</a></li>
+				<li><a href="../xwysd/gsxw.html">新闻与视点</a></li>
+				<li><a href="../rczx/hgrfc.html">人才中心</a></li>
+			</ul>
+		</div>
+	</div>
+
+
+<!--这是内容-->	
+	<div class="center">
+		<div class="center_show_pic container">
+			<img src="../img/center_show_pic.jpg" alt="">
+		</div>
+
+		<div class="center_container container">
+
+			<div class="center_slide">  
+				<h2>关于航港</h2>
+				<ul class="center_nav">
+					<li class="center_item"><a href="../gyhg/gsjj.html">公司介绍<span class="center_item_pic"><img src="../img/tubiao/quannei_sanjiao.png" alt=""></span></a></li>
+					<li id="center_item_active" class="center_item"><a href="../gyhg/gltd.html">管理团队<span id="center_item_pic_active" class="center_item_pic"><img src="../img/tubiao/quannei_sanjiao.png" alt=""></span></a></li>
+					<li class="center_item"><a href="../gyhg/gsdsj.html">公司大事记<span class="center_item_pic"><img src="../img/tubiao/quannei_sanjiao.png" alt=""></span></a></li>
+					<li class="center_item"><a href="../gyhg/shzr.html">社会责任<span class="center_item_pic"><img src="../img/tubiao/quannei_sanjiao.png" alt=""></span></a></li>
+					<li class="center_item"><a href="../gyhg/lxwm.html">联系我们<span class="center_item_pic"><img src="../img/tubiao/quannei_sanjiao.png" alt=""></span></a></li>
+				</ul>
+			</div>
+
+			<div class="center_text">
+				<div class="center_title">
+					<div class="center_title_top">
+						<div class="center_t">管理团队</div>
+						<div class="location">
+							<span class="xs_hidden">你的位置：</span>
+							<a href="../index.html">首页</a>
+							<span>&gt;</span>
+							<a href="../gyhg/gsjj.html">关于航港</a>
+							<span>&gt;</span>
+							<a href="../gyhg/gltd.html">管理团队</a>
+						</div>
+					</div>
+					<div class="center_title_line"></div>
+					<div class="center_title_bottom">The Management Team</div>
+				</div>
+
+				<div class="center_article">
+			<!--韩伟-->
+					<div class="acticle_item">
+						<div class="acticle_item_pic project">
+							<div class="project__card">
+								<a href="#" class="project__image"><img src="../img/gyhg/ren_hanwei.jpg"  alt=""></a>
+							</div>
+						</div>
+						<div class="ren_jj">
+							<h3>韩伟</h3>
+							<div></div>
+							<p>董事长</p>
+							<p>韩伟先生于2015年4月加入航港发展有限公司担任董事长，韩伟先生曾任民航总局人事劳动司副处长，北京空港航空地面服务有限公司副总经理、总经理，吉林省民航机场集团公司副总经理、党委副书记，吉林省民航机场集团公司总经理、党委副书记。韩伟先生具有多年丰富的航空货运领域高层管理经验，拥有香港城市大学EMBA学位。</p>
+						</div>
+					</div>
+			<!--蒋莉-->
+					<div class="acticle_item">
+						<div class="acticle_item_pic project">
+							<div class="project__card">
+								<a href="#" class="project__image"><img src="../img/gyhg/ren_jiangli.jpg"  alt=""></a>
+							</div>
+						</div>
+						<div class="ren_jj">
+							<h3>蒋莉</h3>
+							<div></div>
+							<p>董事总经理</p>
+							<p>蒋莉女士于2012年12月加入航港发展有限公司任董事总经理, 蒋莉女士为北京市第十次党代会党代表、顺义区政协常委、2008年获选成为中美青年领袖论坛组织成员，具有十年开发区政府工作经历，历任项目中心主任、北京政府物流园区管委会副主任等职，2005年加入普洛斯，历任市场总监、北京总经理、北方区总经理、副总裁等职，现任普洛斯中国高级副总裁，具有丰富的工业地产及航空产业领域高层管理经验，是城市产业地产和航空城发展规划专家。蒋莉女士拥有法学学士学位和英国赫尔大学MBA学位。完成哈佛商学院、中欧商学院和清华经济管理学院共同组织的高级管理课程以及法国国立民用航空大学、清华经济管理学院和法国国立路桥大学共同组织的EMBA课程。</p>
+						</div>
+					</div>
+			<!--郭凯霞-->
+					<div class="acticle_item">
+						<div class="acticle_item_pic project">
+							<div class="project__card">
+								<a href="#" class="project__image"><img src="../img/gyhg/ren_guokaixia.jpg"  alt=""></a>
+							</div>
+						</div>
+						<div class="ren_jj">
+							<h3>郭凯霞</h3>
+							<div></div>
+							<p>董事、副总经理兼财务总监</p>
+							<p>郭凯霞女士于2009年9月加入航港发展有限公司，负责航港发展的财务、资金、税务、会计、审计和资产管理业务。郭凯霞女士具有丰富的多年财务管理和金融证券工作经验，曾任杭州商学院讲师，中富证券副总裁、总裁，金飞民航经济发展有限公司总会计师、党委委员。郭凯霞女士拥有中国人民大学博士学位，获得高级会计师专业技术职称，取得注册会计师、注册资产评估师执业资格。</p>
+						</div>
+					</div>
+			<!--宋敬东-->
+					<div class="acticle_item">
+						<div class="acticle_item_pic project">
+							<div class="project__card">
+								<a href="#" class="project__image"><img src="../img/gyhg/ren_songjingdong.jpg"  alt=""></a>
+							</div>
+						</div>
+						<div class="ren_jj">
+							<h3>宋敬东</h3>
+							<div></div>
+							<p>董事、副总经理</p>
+							<p>宋敬东先生于2012年2月加入航港发展有限公司，负责航港发展运营安全管理工作。宋敬东先生曾任天津机场货运公司总经理兼党委书记，BGS副总经理、党委委员，具有丰富的航空货运经验，是航空货运专家，拥有学士学位。</p>
+						</div>
+					</div>
+			<!--周志杰-->
+					<div class="acticle_item">
+						<div class="acticle_item_pic project">
+							<div class="project__card">
+								<a href="#" class="project__image"><img src="../img/gyhg/ren_zhouzhijie.jpg"  alt=""></a>
+							</div>
+						</div>
+						<div class="ren_jj">
+							<h3>周志杰</h3>
+							<div></div>
+							<p>副总经理</p>
+							<p>周志杰先生于2011年3月加入航港发展有限公司，负责航港发展招商、物业管理工作。周志杰先生具有丰富的物流、规划管理和操作经验，曾任敦豪物流北方区运营总经理，现任普洛斯副总裁兼河北公司总经理，拥有北京大学硕士学位。</p>
+						</div>
+					</div>
+			<!--赵芃-->
+					<div class="acticle_item">
+						<div class="acticle_item_pic project">
+							<div class="project__card">
+								<a href="#" class="project__image"><img src="../img/gyhg/ren_zhaofan.jpg"  alt=""></a>
+							</div>
+						</div>
+						<div class="ren_jj">
+							<h3>赵芃</h3>
+							<div></div>
+							<p>副总经理</p>
+							<p>赵芃女士于2006年5月加入航港发展有限公司，负责航港发展前期开发、成本控制及行政管理工作，并担任航港发展有限公司工会主席。赵芃女士熟悉房地产开发的政策、法规、流程，尤其主持过从一级到二级全过程的开发建设，是前期开发专家，擅长处理各类公共关系，拥有学士学位。</p>
+						</div>
+					</div>
+			<!--方道宁-->
+					<div class="acticle_item">
+						<div class="acticle_item_pic project">
+							<div class="project__card">
+								<a href="#" class="project__image"><img src="../img/gyhg/ren_fangdaoning.jpg"  alt=""></a>
+							</div>
+						</div>
+						<div class="ren_jj">
+							<h3>方道宁</h3>
+							<div></div>
+							<p>董事会秘书兼总经理助理</p>
+							<p>方道宁先生于2008年5月加入航港发展有限公司，负责董事会办公室和IT信息部管理工作，在公司战略、重点项目以及股东方协调中发挥重要作用。方道宁先生曾任职于首都机场集团公司战略规划部、总经理办公室，拥有天津商学院硕士学位。</p>
+						</div>
+					</div>
+			<!--王霞-->
+					<div class="acticle_item">
+						<div class="acticle_item_pic project">
+							<div class="project__card">
+								<a href="#" class="project__image"><img src="../img/gyhg/ren_wangxia.jpg"  alt=""></a>
+							</div>
+						</div>
+						<div class="ren_jj">
+							<h3>王霞</h3>
+							<div></div>
+							<p>董事会秘书兼总经理助理</p>
+							<p>王霞女士于2010年2月加入航港发展有限公司现任总经理助理。王霞女士在航空货运产业全链条具有丰富的行业经验和专业背景，擅长企业战略规划、市场等方面工作。王霞女士拥有北京大学生物有机化学和香港科技大学MBA双硕士学位。</p>
+						</div>
+					</div>
+
+
+				</div>
+
+			</div>
+
+
+		</div>
+	</div>
+	<div class="clearfix"></div>
+<!--这是脚部-->
+
+
+	<div class="footer xs_hidden">
+		<div class="footer_container container">
+			<div class="footer_con">
+				<div class="footer_con_item">
+					<h2><a href="../index.html">首页</h2>
+				</div>
+				<div class="footer_con_item">
+					<h2><a href="../gyhg/gsjj.html">关于港航</h2>
+					<ul>
+						<li><span></span><a href="../gyhg/gsjj.html">公司介绍</a></li>
+						<li><span></span><a href="../gyhg/gltd.html">管理团队</a></li>
+						<li><span></span><a href="../gyhg/gsdsj.html">公司大事记</a></li>
+						<li><span></span><a href="../gyhg/shzr.html">社会责任</a></li>
+						<li><span></span><a href="../gyhg/lxwm.html">联系我们</a></li>
+					</ul>
+				</div>
+				<div class="footer_con_item">
+					<h2><a href="../ACLP/aclpjs.html">我们的项目</h2>
+					<ul>
+						<li><span></span><a href="../ACLP/aclpjs.html">ACLP介绍</a></li>
+						<li><span></span><a href="../ACLP/gnq.html">功能区详述</a></li>
+						<li><span></span><a href="../ACLP/hykh.html">行业客户</a></li>
+					</ul>
+				</div>
+				<div class="footer_con_item">
+					<h2><a href="../fwyzc/zlyw.html">服务与支持</h2>
+				<ul>
+					<li><span></span><a href="../fwyzc/zlyw.html">租赁业务</a></li>
+					<li><span></span><a href="../fwyzc/wyfw.html">物业服务</a></li>
+					<li><span></span><a href="../fwyzc/zxgl.html">咨询管理</a></li>
+					<li><span></span><a href="../fwyzc/jjfa.html">IT解决方案</a></li>
+					<li><span></span><a href="#">意见反馈</a></li>
+					<li><span></span><a href="#">下载专区</a></li>
+				</div>
+				<div class="footer_con_item">
+					<h2><a href="../xwysd/gsxw.html">新闻与视点</h2>
+					<ul>
+						<li><span></span><a href="../xwysd/gsxw.html">公司新闻</a></li>
+						<li><span></span><a href="#">股东动态</a></li>
+						<li><span></span><a href="#">行业视点</a></li>
+						<li><span></span><a href="#">媒体报道</a></li>
+					</ul>
+				</div>
+				<div class="footer_con_item">
+					<h2><a href="../rczx/hgrfc.html">人才中心</h2>
+					<ul>
+						<li><span></span><a href="../rczx/hgrfc.html">航港人风采</a></li>
+						<li><span></span><a href="#">人才理念</a></li>
+						<li><span></span><a href="#">社会招聘</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer_neikan">
+				<p>航港全媒体</p>
+				<p>All media</p>
+				<a href=""><img src="../img/footer_qiye_neikan.jpg" alt=""></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="info">
+		<div class="info_container container">
+			<span class="info_logo xs_hidden"><img src="../img/info_logo_2.png" alt=""></span>
+			<div class="info_message">
+				<span>版权所有：航港发展有限公司</span>
+				<span>京ICP</span>
+				<span>备13028915号-3</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="fixed_message">
+		<a href="" class="fixed_online xs_hidden"><img src="../img/tubiao/online_liuyan.gif" alt=""></a>
+		<a href="javascript:void(0)" class="fixed_top"><img src="../img/tubiao/top_1.gif" alt=""></a>
+	</div>
+
+</body>
+</html>	

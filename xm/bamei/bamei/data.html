@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>首页</title>
+<link href="style/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="style/default.css">
+<link rel="stylesheet" type="text/css" href="style/jquery.accordion.css">
+<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script src="js/jquery.slideBox.js" type="text/javascript"></script>
+<script src="js/jquery.tabso_yeso.js" type="text/javascript"></script>
+<script src="js/jquery.accordion.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function($){
+	
+	//上下滑动选项卡切换
+	$("#move-animate-top").tabso({
+		cntSelect:"#topcon",
+		tabEvent:"mouseover",
+		tabStyle:"move-animate",
+		direction : "top"
+	});
+	
+	//默认选项卡切换
+	$("#news_tab").tabso({
+		cntSelect:"#fadecon",
+		tabEvent:"mouseover",
+		tabStyle:"normal"
+	});
+	
+});
+
+</script>
+</head>
+<body>
+<div class="ny_box">
+  <div class="nav">
+    <div class="nav_main"> <img src="images/logo.png" class="logo_img">
+      <ul>
+        <li class="nav_01"><a href="#">官网首页 </a></li>
+        <li class="nav_02"><a href="#">最新消息</a></li>
+        <li class="nav_03"><a href="#" class="nav_hover">游戏资料</a></li>
+        <li class="nav_04"><a href="#">游戏视频</a></li>
+        <li class="nav_05"><a href="#">相关下载</a></li>
+        <li class="nav_06"><a href="#">论坛专区</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="ny_main">
+    <div class="main_left">
+      <div class="main_xz">
+        <div class="xz_title">快速下载</div>
+        <div class="ewm_left"> <img src="images/asfafaf.jpg"></div>
+        <div class="xz_btn"> <a class="ios_xz" href="#"></a> <a class="az_xz" href="#"></a> </div>
+      </div>
+      <div class="kf_box">
+        <div class="title">
+          <h2>客服信息</h2>
+        </div>
+        <div class="kf_main">
+          <ul>
+            <li> 021-000000000000 </li>
+            <li style="padding:50px 0 0 0"> xxxxxxxxxxxxxx </li>
+            <li style="font-size:12px;">(7x24小时制)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="main_right">
+      <div class="main_title"> <b>游戏资料</b>
+        <div class="dqwz_box">你当前位置：<a href="#">首页</a> > <span>游戏资料</span> </div>
+      </div>
+      <div class="list_box">
+        <div class="news_list">
+          <ul class="tabbtn" id="news_tab">
+            <li class="current"><a href="#">游戏资料</a></li>
+            <li><a href="#">新手指南</a></li>
+            <li><a href="#">高手进阶</a></li>
+            <li><a href="#">数据资料</a></li>
+          </ul>
+          <!--tabbtn end-->
+          <div class="tabcon" id="fadecon">
+            <div class="sublist">
+              <ul>
+                <li><span></span><a href="#" target="_blank">[最新新闻]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[最新新闻]浮动层点击图标按钮关闭或展开</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[最新新闻]j定位层导航描点上下滚动的浮动导航</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[最新新闻]div css3样作jquery返回顶部特效</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[最新新闻]jquery 表格表格内容拖动标题固定在顶部</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[最新新闻]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[最新新闻]浮动层点击图标按钮关闭或展开</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[最新新闻]j定位层导航描点上下滚动的浮动导航</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[最新新闻]div css3样作jquery返回顶部特效</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[最新新闻]jquery 表格表格内容拖动标题固定在顶部</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[最新新闻]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[最新新闻]浮动层点击图标按钮关闭或展开</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[最新新闻]j定位层导航描点上下滚动的浮动导航</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[最新新闻]div css3样作jquery返回顶部特效</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[最新新闻]jquery 表格表格内容拖动标题固定在顶部</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[最新新闻]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[最新新闻]浮动层点击图标按钮关闭或展开</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[最新新闻]j定位层导航描点上下滚动的浮动导航</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[最新新闻]div css3样作jquery返回顶部特效</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[最新新闻]jquery 表格表格内容拖动标题固定在顶部</a><span class="time_span">08-21</span></li>
+              </ul>
+              <div class="page"><a href="">上一页</a><a href=""><span>1</span></a> <a href="">2</a> <a href="">3</a> <a href="">下一页</a> <a href="">末页</a> <a href="">第1页</a> <a href="">共3页</a></div>
+            </div>
+            <!--tabcon end-->
+            <div class="sublist">
+              <ul>
+                <li><span></span><a href="#" target="_blank">[官方新闻]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[官方新闻]浮动层点击图标按钮关闭或展开</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[官方新闻]j定位层导航描点上下滚动的浮动导航</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[官方新闻]div css3样作jquery返回顶部特效</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[官方新闻]jquery 表格表格内容拖动标题固定在顶部</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[官方新闻]jquery表格变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[官方新闻]jQuery浮动层点击图标按钮关闭或展开</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[官方新闻]jquery浮动描点上下滚动的浮动导航</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[官方新闻]div css3样ery返回顶部特效</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[官方新闻]jquery 表格插容拖动标题固定在顶部</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[官方新闻]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[官方新闻]浮动层点击图标按钮关闭或展开</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[官方新闻]j定位层导航描点上下滚动的浮动导航</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[官方新闻]div css3样作jquery返回顶部特效</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[官方新闻]jquery 表格表格内容拖动标题固定在顶部</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[官方新闻]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[官方新闻]浮动层点击图标按钮关闭或展开</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[官方新闻]j定位层导航描点上下滚动的浮动导航</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[官方新闻]div css3样作jquery返回顶部特效</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[官方新闻]jquery 表格表格内容拖动标题固定在顶部</a><span class="time_span">08-21</span></li>
+              </ul>
+               <div class="page"><a href="">上一页</a><a href=""><span>1</span></a> <a href="">2</a> <a href="">3</a> <a href="">下一页</a> <a href="">末页</a> <a href="">第1页</a> <a href="">共3页</a></div>
+            </div>
+            <!--tabcon end-->
+            <div class="sublist">
+              <ul>
+                <li><span></span><a href="#" target="_blank">[系统公告]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[系统公告]浮动层点击图标按钮关闭或展开</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[系统公告]j定位层导航描点上下滚动的浮动导航</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[系统公告]div css3样作jquery返回顶部特效</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[系统公告]jquery 表格表格内容拖动标题固定在顶部</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[系统公告]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[系统公告]浮动层点击图标按钮关闭或展开</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[系统公告]j定位层导航描点上下滚动的浮动导航</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[系统公告]div css3样作jquery返回顶部特效</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[系统公告]jquery 表格表格内容拖动标题固定在顶部</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[系统公告]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[系统公告]浮动层点击图标按钮关闭或展开</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[系统公告]j定位层导航描点上下滚动的浮动导航</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[系统公告]div css3样作jquery返回顶部特效</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[系统公告]jquery 表格表格内容拖动标题固定在顶部</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[系统公告]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[系统公告]浮动层点击图标按钮关闭或展开</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[系统公告]j定位层导航描点上下滚动的浮动导航</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[系统公告]div css3样作jquery返回顶部特效</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[系统公告]jquery 表格表格内容拖动标题固定在顶部</a><span class="time_span">08-21</span></li>
+              </ul>
+               <div class="page"><a href="">上一页</a><a href=""><span>1</span></a> <a href="">2</a> <a href="">3</a> <a href="">下一页</a> <a href="">末页</a> <a href="">第1页</a> <a href="">共3页</a></div>
+            </div>
+            <!--tabcon end-->
+            <div class="sublist">
+              <ul>
+                <li><span></span><a href="#" target="_blank">[游戏活动]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[游戏活动]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[游戏活动]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[游戏活动]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[游戏活动]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[游戏活动]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[游戏活动]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[游戏活动]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[游戏活动]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[游戏活动]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[游戏活动]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[游戏活动]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[游戏活动]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[游戏活动]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[游戏活动]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[游戏活动]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[游戏活动]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[游戏活动]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[游戏活动]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+                <li><span></span><a href="#" target="_blank">[游戏活动]jquery表格变色隔行变色鼠标滑过竖直表格内容变色效果</a><span class="time_span">08-21</span></li>
+              </ul>
+               <div class="page"><a href="">上一页</a><a href=""><span>1</span></a> <a href="">2</a> <a href="">3</a> <a href="">下一页</a> <a href="">末页</a> <a href="">第1页</a> <a href="">共3页</a></div>
+            </div>
+            <!--tabcon end-->
+          </div>
+          <!--tabcon end-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+</div>
+<div class="footer"> 版权信息 </div>
+</div>
+</body>
+</html>

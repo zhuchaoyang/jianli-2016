@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>首页</title>
+<link href="style/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="style/default.css">
+<link rel="stylesheet" type="text/css" href="style/jquery.accordion.css">
+<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script src="js/jquery.slideBox.js" type="text/javascript"></script>
+<script src="js/jquery.tabso_yeso.js" type="text/javascript"></script>
+<script src="js/jquery.accordion.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function($){
+	
+	//上下滑动选项卡切换
+	$("#move-animate-top").tabso({
+		cntSelect:"#topcon",
+		tabEvent:"mouseover",
+		tabStyle:"move-animate",
+		direction : "top"
+	});
+	
+	//左右滑动选项卡切换
+	$("#news_tab").tabso({
+		cntSelect:"#news_list",
+		tabEvent:"mouseover",
+		tabStyle:"move-animate",
+		direction : "left"
+	});
+	
+		//左右滑动选项卡切换
+	$("#bz_tab").tabso({
+		cntSelect:"#bz_box",
+		tabEvent:"mouseover",
+		tabStyle:"move-animate",
+		direction : "left"
+	});
+
+
+	
+	//默认选项卡切换
+	$("#normaltab").tabso({
+		cntSelect:"#normalcon",
+		tabEvent:"mouseover",
+		tabStyle:"normal"
+	});
+	
+});
+
+</script>
+</head>
+
+<body>
+<div class="ny_box">
+  <div class="nav">
+    <div class="nav_main"> <img src="images/logo.png" class="logo_img">
+      <ul>
+        <li class="nav_01"><a href="#">官网首页 </a></li>
+        <li class="nav_02"><a href="#" class="nav_hover">最新消息</a></li>
+        <li class="nav_03"><a href="#">游戏资料</a></li>
+        <li class="nav_04"><a href="#">游戏视频</a></li>
+        <li class="nav_05"><a href="#">相关下载</a></li>
+        <li class="nav_06"><a href="#">论坛专区</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="ny_main">
+    <div class="main_left">
+      <div class="main_xz">
+        <div class="xz_title">快速下载</div>
+        <div class="ewm_left"> <img src="images/asfafaf.jpg"></div>
+        <div class="xz_btn"> <a class="ios_xz" href="#"></a> <a class="az_xz" href="#"></a> </div>
+      </div>
+      <div class="kf_box">
+        <div class="title">
+          <h2>客服信息</h2>
+        </div>
+        <div class="kf_main">
+          <ul>
+            <li> 021-000000000000 </li>
+            <li style="padding:50px 0 0 0"> xxxxxxxxxxxxxx </li>
+            <li style="font-size:12px;">(7x24小时制)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="main_right">
+      <div class="main_title"> <b>新闻中心</b>
+        <div class="dqwz_box">你当前位置：<a href="#">首页</a> > <span>新闻中心</span> </div>
+      </div>
+      <div class="wz_box">
+        <div class="wz_title">
+          <h2>【更新】《天下HD》第二届3V3跨服PVP争霸赛赛程通知及注意事项！</h2>
+          <span class="title_span">发布于2016-03-21</span> </div>
+        <div class="wz_main">
+          <p>尊敬的各位玩家！<br>
+            第二届3V3跨服PVP争霸赛预赛今晚即将开启，以下是本次比赛的赛程时间：<br>
+            预赛： 3月25日、3月27日 <br>
+            截止到预赛截止时间3月27日，根据报名队伍3名成员的演武场积分总和进行排名，根据排名高低晋级复赛。<br>
+            3月25日、3月27日（周五、周日）演武场：20:00-20:45<br>
+            复赛：3月29日—4月1日<br>
+            工作人员将会具体通知晋级选手比赛场次安排 <br>
+            人气PK赛：4月5日晚18:00至4月11日10点<br>
+            人气PK赛将在官网进行：http://txhd.163.com/kaixue/3v3pk/<br>
+            决赛： 4月14日—4月15日<br>
+            工作人员将会具体通知晋级选手比赛场次安排 <br>
+            重要提示：<br>
+            1.由于本次3v3争霸赛是分段位的，请大家在比赛期间不要79升80级或者89升90级，否则将改变参加的组别，将失去比赛资格的哦！ <br>
+            2.预赛阶段不强制报名的三人组队，每个战队的预赛成绩即为三名战队成员当周的演武场积分成绩的总和！ <br>
+          <p> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+</div>
+<div class="footer"> 版权信息 </div>
+</div>
+</body>
+</html>

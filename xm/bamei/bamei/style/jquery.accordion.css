@@ -1,0 +1,20 @@
+* { padding: 0; margin: 0; }
+.accordion { width: 1200px; overflow: hidden; height: 350px; margin: 0 auto; }
+.accordion ul li { background-repeat: no-repeat; float: left; width: 170px; height: 350px; cursor: default; overflow:hidden; }
+.accordion ul li.active { width: 690px; }
+.accordion ul .item1 { background-image: url(../images/zl_bg_01.jpg); }
+.accordion ul .item2 { background-image: url(../images/zl_bg_02.jpg); }
+.accordion ul .item3 { background-image: url(../images/zl_bg_03.jpg); }
+.accordion ul .item4 { background-image: url(../images/zl_bg_04.jpg); }
+.accordion ul li span { display: block; width: 170px; height: 350px; cursor: default; position:absolute; top:0; left:0; }
+.accordion ul .item1 span { background-image: url(../images/zl_01.jpg); }
+.accordion ul .item2 span { background-image: url(../images/zl_02.jpg); }
+.accordion ul .item3 span { background-image: url(../images/zl_03.jpg); }
+.accordion ul .item4 span { background-image: url(../images/zl_04.jpg); }
+
+.zl_list{ padding:100px 0 0 80px; width:500px;}
+.zl_list a{ color:#3f3756; font-size:14px; line-height:24px;}
+.zl_list a:hover{ color:#000;}
+.zl_list b{ font-weight:normal; font-size:12px; border-radius:5px; float:left; height:5px; width:5px; background:#88729a; margin:11px 0 0 0}
+.zl_list div{ height:32px; padding:0 0 0 0}
+.index_box .zl_list .more_link{ left:413px; top:20px; background:url(../images/bg.png) no-repeat -28px -434px;}
